@@ -10,9 +10,23 @@
   </volatile>
 
   <default_symbols>
-<!-- TODO: Reset vectors -->
+<!-- Reset vectors -->
     <symbol name="entry"     address="CODE:0000" type="code" entry="true"/>
-    <symbol name="isp_entry" address="CODE:7000" type="code" entry="true"/>
+<!-- BYK801 FW doesn't use MCU defined isp_entry (reached via pinstrap/always/never depending on OP_ISPPIN/OP_ISP configuration)
+  <symbol name="isp_entry" address="CODE:7C00" type="code" entry="true"/>
+-->
+<!-- TODO: Interrupts - currently only those are clearly used in BYK801 FW. Leading 0 to help with sorting -->
+    <symbol name="irq00" address="CODE:0003" type="code" entry="true"/>
+    <symbol name="irq03" address="CODE:001B" type="code" entry="true"/>
+    <symbol name="irq05" address="CODE:002B" type="code" entry="true"/>
+    <symbol name="irq08" address="CODE:0043" type="code" entry="true"/>
+    <symbol name="irq09" address="CODE:004B" type="code" entry="true"/>
+    <symbol name="irq10" address="CODE:0053" type="code" entry="true"/>
+    <symbol name="irq11" address="CODE:005B" type="code" entry="true"/>
+
+<!-- BYK801 FW -->
+    <symbol name="byk801_isp_entry1" address="CODE:7000" type="code" entry="true"/>
+    <symbol name="byk801_isp_entry2" address="CODE:7F00" type="code" entry="true"/>
 
 <!-- Banks selected by PSW.RS[1:0] -->
     <symbol name="BANK0_R0" address="INTMEM:00"/>
