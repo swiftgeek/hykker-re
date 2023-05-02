@@ -465,6 +465,192 @@
     <symbol name="USBIF2.OEP2IF" address="BITS:fe"/>
     <symbol name="USBIF2.7" address="BITS:ff"/>
 
+<!-- EXTERNAL MEMORY -->
+<!-- USB RAM - would be better to do it in *.slaspec/*.sinc -->
+    <symbol name="EP0OUT[0]" address="EXTMEM:A00"/>
+    <symbol name="EP0OUT[1]" address="EXTMEM:A01"/>
+    <symbol name="EP0OUT[2]" address="EXTMEM:A02"/>
+    <symbol name="EP0OUT[3]" address="EXTMEM:A03"/>
+    <symbol name="EP0OUT[4]" address="EXTMEM:A04"/>
+    <symbol name="EP0OUT[5]" address="EXTMEM:A05"/>
+    <symbol name="EP0OUT[6]" address="EXTMEM:A06"/>
+    <symbol name="EP0OUT[7]" address="EXTMEM:A07"/>
+
+    <symbol name="EP0IN[0]" address="EXTMEM:A08"/>
+    <symbol name="EP0IN[1]" address="EXTMEM:A09"/>
+    <symbol name="EP0IN[2]" address="EXTMEM:A0A"/>
+    <symbol name="EP0IN[3]" address="EXTMEM:A0B"/>
+    <symbol name="EP0IN[4]" address="EXTMEM:A0C"/>
+    <symbol name="EP0IN[5]" address="EXTMEM:A0D"/>
+    <symbol name="EP0IN[6]" address="EXTMEM:A0E"/>
+    <symbol name="EP0IN[7]" address="EXTMEM:A0F"/>
+
+    <symbol name="EP1OUT[00]" address="EXTMEM:A10"/>
+    <symbol name="EP1OUT[01]" address="EXTMEM:A11"/>
+    <symbol name="EP1OUT[02]" address="EXTMEM:A12"/>
+    <symbol name="EP1OUT[03]" address="EXTMEM:A13"/>
+    <symbol name="EP1OUT[04]" address="EXTMEM:A14"/>
+    <symbol name="EP1OUT[05]" address="EXTMEM:A15"/>
+    <symbol name="EP1OUT[06]" address="EXTMEM:A16"/>
+    <symbol name="EP1OUT[07]" address="EXTMEM:A17"/>
+    <symbol name="EP1OUT[08]" address="EXTMEM:A18"/>
+    <symbol name="EP1OUT[09]" address="EXTMEM:A19"/>
+    <symbol name="EP1OUT[10]" address="EXTMEM:A1A"/>
+    <symbol name="EP1OUT[11]" address="EXTMEM:A1B"/>
+    <symbol name="EP1OUT[12]" address="EXTMEM:A1C"/>
+    <symbol name="EP1OUT[13]" address="EXTMEM:A1D"/>
+    <symbol name="EP1OUT[14]" address="EXTMEM:A1E"/>
+    <symbol name="EP1OUT[15]" address="EXTMEM:A1F"/>
+
+    <symbol name="EP1IN[00]" address="EXTMEM:A20"/>
+    <symbol name="EP1IN[01]" address="EXTMEM:A21"/>
+    <symbol name="EP1IN[02]" address="EXTMEM:A22"/>
+    <symbol name="EP1IN[03]" address="EXTMEM:A23"/>
+    <symbol name="EP1IN[04]" address="EXTMEM:A24"/>
+    <symbol name="EP1IN[05]" address="EXTMEM:A25"/>
+    <symbol name="EP1IN[06]" address="EXTMEM:A26"/>
+    <symbol name="EP1IN[07]" address="EXTMEM:A27"/>
+    <symbol name="EP1IN[08]" address="EXTMEM:A28"/>
+    <symbol name="EP1IN[09]" address="EXTMEM:A29"/>
+    <symbol name="EP1IN[10]" address="EXTMEM:A2A"/>
+    <symbol name="EP1IN[11]" address="EXTMEM:A2B"/>
+    <symbol name="EP1IN[12]" address="EXTMEM:A2C"/>
+    <symbol name="EP1IN[13]" address="EXTMEM:A2D"/>
+    <symbol name="EP1IN[14]" address="EXTMEM:A2E"/>
+    <symbol name="EP1IN[15]" address="EXTMEM:A2F"/>
+
+    <!-- USB 64B buffers -->
+
+    <symbol name="EP2OUT[00]" address="EXTMEM:A30"/>
+    <symbol name="EP2OUT[01]" address="EXTMEM:A31"/>
+    <symbol name="EP2OUT[02]" address="EXTMEM:A32"/>
+    <symbol name="EP2OUT[03]" address="EXTMEM:A33"/>
+    <symbol name="EP2OUT[04]" address="EXTMEM:A34"/>
+    <symbol name="EP2OUT[05]" address="EXTMEM:A35"/>
+    <symbol name="EP2OUT[06]" address="EXTMEM:A36"/>
+    <symbol name="EP2OUT[07]" address="EXTMEM:A37"/>
+    <symbol name="EP2OUT[08]" address="EXTMEM:A38"/>
+    <symbol name="EP2OUT[09]" address="EXTMEM:A39"/>
+    <symbol name="EP2OUT[10]" address="EXTMEM:A3A"/>
+    <symbol name="EP2OUT[11]" address="EXTMEM:A3B"/>
+    <symbol name="EP2OUT[12]" address="EXTMEM:A3C"/>
+    <symbol name="EP2OUT[13]" address="EXTMEM:A3D"/>
+    <symbol name="EP2OUT[14]" address="EXTMEM:A3E"/>
+    <symbol name="EP2OUT[15]" address="EXTMEM:A3F"/>
+    <symbol name="EP2OUT[16]" address="EXTMEM:A40"/>
+    <symbol name="EP2OUT[17]" address="EXTMEM:A41"/>
+    <symbol name="EP2OUT[18]" address="EXTMEM:A42"/>
+    <symbol name="EP2OUT[19]" address="EXTMEM:A43"/>
+    <symbol name="EP2OUT[20]" address="EXTMEM:A44"/>
+    <symbol name="EP2OUT[21]" address="EXTMEM:A45"/>
+    <symbol name="EP2OUT[22]" address="EXTMEM:A46"/>
+    <symbol name="EP2OUT[23]" address="EXTMEM:A47"/>
+    <symbol name="EP2OUT[24]" address="EXTMEM:A48"/>
+    <symbol name="EP2OUT[25]" address="EXTMEM:A49"/>
+    <symbol name="EP2OUT[26]" address="EXTMEM:A4A"/>
+    <symbol name="EP2OUT[27]" address="EXTMEM:A4B"/>
+    <symbol name="EP2OUT[28]" address="EXTMEM:A4C"/>
+    <symbol name="EP2OUT[29]" address="EXTMEM:A4D"/>
+    <symbol name="EP2OUT[30]" address="EXTMEM:A4E"/>
+    <symbol name="EP2OUT[31]" address="EXTMEM:A4F"/>
+    <symbol name="EP2OUT[32]" address="EXTMEM:A50"/>
+    <symbol name="EP2OUT[33]" address="EXTMEM:A51"/>
+    <symbol name="EP2OUT[34]" address="EXTMEM:A52"/>
+    <symbol name="EP2OUT[35]" address="EXTMEM:A53"/>
+    <symbol name="EP2OUT[36]" address="EXTMEM:A54"/>
+    <symbol name="EP2OUT[37]" address="EXTMEM:A55"/>
+    <symbol name="EP2OUT[38]" address="EXTMEM:A56"/>
+    <symbol name="EP2OUT[39]" address="EXTMEM:A57"/>
+    <symbol name="EP2OUT[40]" address="EXTMEM:A58"/>
+    <symbol name="EP2OUT[41]" address="EXTMEM:A59"/>
+    <symbol name="EP2OUT[42]" address="EXTMEM:A5A"/>
+    <symbol name="EP2OUT[43]" address="EXTMEM:A5B"/>
+    <symbol name="EP2OUT[44]" address="EXTMEM:A5C"/>
+    <symbol name="EP2OUT[45]" address="EXTMEM:A5D"/>
+    <symbol name="EP2OUT[46]" address="EXTMEM:A5E"/>
+    <symbol name="EP2OUT[47]" address="EXTMEM:A5F"/>
+    <symbol name="EP2OUT[48]" address="EXTMEM:A60"/>
+    <symbol name="EP2OUT[49]" address="EXTMEM:A61"/>
+    <symbol name="EP2OUT[50]" address="EXTMEM:A62"/>
+    <symbol name="EP2OUT[51]" address="EXTMEM:A63"/>
+    <symbol name="EP2OUT[52]" address="EXTMEM:A64"/>
+    <symbol name="EP2OUT[53]" address="EXTMEM:A65"/>
+    <symbol name="EP2OUT[54]" address="EXTMEM:A66"/>
+    <symbol name="EP2OUT[55]" address="EXTMEM:A67"/>
+    <symbol name="EP2OUT[56]" address="EXTMEM:A68"/>
+    <symbol name="EP2OUT[57]" address="EXTMEM:A69"/>
+    <symbol name="EP2OUT[58]" address="EXTMEM:A6A"/>
+    <symbol name="EP2OUT[59]" address="EXTMEM:A6B"/>
+    <symbol name="EP2OUT[60]" address="EXTMEM:A6C"/>
+    <symbol name="EP2OUT[61]" address="EXTMEM:A6D"/>
+    <symbol name="EP2OUT[62]" address="EXTMEM:A6E"/>
+    <symbol name="EP2OUT[63]" address="EXTMEM:A6F"/>
+
+    <symbol name="EP2IN[00]" address="EXTMEM:A70"/>
+    <symbol name="EP2IN[01]" address="EXTMEM:A71"/>
+    <symbol name="EP2IN[02]" address="EXTMEM:A72"/>
+    <symbol name="EP2IN[03]" address="EXTMEM:A73"/>
+    <symbol name="EP2IN[04]" address="EXTMEM:A74"/>
+    <symbol name="EP2IN[05]" address="EXTMEM:A75"/>
+    <symbol name="EP2IN[06]" address="EXTMEM:A76"/>
+    <symbol name="EP2IN[07]" address="EXTMEM:A77"/>
+    <symbol name="EP2IN[08]" address="EXTMEM:A78"/>
+    <symbol name="EP2IN[09]" address="EXTMEM:A79"/>
+    <symbol name="EP2IN[10]" address="EXTMEM:A7A"/>
+    <symbol name="EP2IN[11]" address="EXTMEM:A7B"/>
+    <symbol name="EP2IN[12]" address="EXTMEM:A7C"/>
+    <symbol name="EP2IN[13]" address="EXTMEM:A7D"/>
+    <symbol name="EP2IN[14]" address="EXTMEM:A7E"/>
+    <symbol name="EP2IN[15]" address="EXTMEM:A7F"/>
+    <symbol name="EP2IN[16]" address="EXTMEM:A80"/>
+    <symbol name="EP2IN[17]" address="EXTMEM:A81"/>
+    <symbol name="EP2IN[18]" address="EXTMEM:A82"/>
+    <symbol name="EP2IN[19]" address="EXTMEM:A83"/>
+    <symbol name="EP2IN[20]" address="EXTMEM:A84"/>
+    <symbol name="EP2IN[21]" address="EXTMEM:A85"/>
+    <symbol name="EP2IN[22]" address="EXTMEM:A86"/>
+    <symbol name="EP2IN[23]" address="EXTMEM:A87"/>
+    <symbol name="EP2IN[24]" address="EXTMEM:A88"/>
+    <symbol name="EP2IN[25]" address="EXTMEM:A89"/>
+    <symbol name="EP2IN[26]" address="EXTMEM:A8A"/>
+    <symbol name="EP2IN[27]" address="EXTMEM:A8B"/>
+    <symbol name="EP2IN[28]" address="EXTMEM:A8C"/>
+    <symbol name="EP2IN[29]" address="EXTMEM:A8D"/>
+    <symbol name="EP2IN[30]" address="EXTMEM:A8E"/>
+    <symbol name="EP2IN[31]" address="EXTMEM:A8F"/>
+    <symbol name="EP2IN[32]" address="EXTMEM:A90"/>
+    <symbol name="EP2IN[33]" address="EXTMEM:A91"/>
+    <symbol name="EP2IN[34]" address="EXTMEM:A92"/>
+    <symbol name="EP2IN[35]" address="EXTMEM:A93"/>
+    <symbol name="EP2IN[36]" address="EXTMEM:A94"/>
+    <symbol name="EP2IN[37]" address="EXTMEM:A95"/>
+    <symbol name="EP2IN[38]" address="EXTMEM:A96"/>
+    <symbol name="EP2IN[39]" address="EXTMEM:A97"/>
+    <symbol name="EP2IN[40]" address="EXTMEM:A98"/>
+    <symbol name="EP2IN[41]" address="EXTMEM:A99"/>
+    <symbol name="EP2IN[42]" address="EXTMEM:A9A"/>
+    <symbol name="EP2IN[43]" address="EXTMEM:A9B"/>
+    <symbol name="EP2IN[44]" address="EXTMEM:A9C"/>
+    <symbol name="EP2IN[45]" address="EXTMEM:A9D"/>
+    <symbol name="EP2IN[46]" address="EXTMEM:A9E"/>
+    <symbol name="EP2IN[47]" address="EXTMEM:A9F"/>
+    <symbol name="EP2IN[48]" address="EXTMEM:AA0"/>
+    <symbol name="EP2IN[49]" address="EXTMEM:AA1"/>
+    <symbol name="EP2IN[50]" address="EXTMEM:AA2"/>
+    <symbol name="EP2IN[51]" address="EXTMEM:AA3"/>
+    <symbol name="EP2IN[52]" address="EXTMEM:AA4"/>
+    <symbol name="EP2IN[53]" address="EXTMEM:AA5"/>
+    <symbol name="EP2IN[54]" address="EXTMEM:AA6"/>
+    <symbol name="EP2IN[55]" address="EXTMEM:AA7"/>
+    <symbol name="EP2IN[56]" address="EXTMEM:AA8"/>
+    <symbol name="EP2IN[57]" address="EXTMEM:AA9"/>
+    <symbol name="EP2IN[58]" address="EXTMEM:AAA"/>
+    <symbol name="EP2IN[59]" address="EXTMEM:AAB"/>
+    <symbol name="EP2IN[60]" address="EXTMEM:AAC"/>
+    <symbol name="EP2IN[61]" address="EXTMEM:AAD"/>
+    <symbol name="EP2IN[62]" address="EXTMEM:AAE"/>
+    <symbol name="EP2IN[63]" address="EXTMEM:AAF"/>
+
   </default_symbols>
 
   <default_memory_blocks>
@@ -478,6 +664,16 @@
 
     <!--  BUG: SFR-BITS do not map properly since only every 8th SFR register is mapped (e.g., 0x80, 0x88, 0x90 ... 0xF0, 0xF8) -->
     <memory_block name="SFR-BITS" start_address="BITS:80" bit_mapped_address="SFR:80" length="0x80"/>
+
+    <!-- EXTERNAL MEMORY -->
+    <memory_block name="XRAM" start_address="EXTMEM:0000" length="0x900" initialized="false" mode="rwv"/>
+    <!-- <memory_block name="USB_RAM" start_address="EXTMEM:0A00" length="0x100" initialized="false" mode="rwv"/> -->
+    <memory_block name="USB_RAM.EP0OUT" start_address="EXTMEM:0A00" length="0x08" initialized="false" mode="rwv"/>
+    <memory_block name="USB_RAM.EP0IN"  start_address="EXTMEM:0A08" length="0x08" initialized="false" mode="rwv"/>
+    <memory_block name="USB_RAM.EP1OUT" start_address="EXTMEM:0A10" length="0x0F" initialized="false" mode="rwv"/>
+    <memory_block name="USB_RAM.EP1IN"  start_address="EXTMEM:0A20" length="0x0F" initialized="false" mode="rwv"/>
+    <memory_block name="USB_RAM.EP2OUT" start_address="EXTMEM:0A30" length="0x40" initialized="false" mode="rwv"/>
+    <memory_block name="USB_RAM.EP2IN"  start_address="EXTMEM:0A70" length="0x40" initialized="false" mode="rwv"/>
 
   </default_memory_blocks>
 
