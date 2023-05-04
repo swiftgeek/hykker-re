@@ -50,4 +50,28 @@
     <compiler name="default" spec="mx51.cspec" id="default"/>
     <external_name tool="IDA-PRO" name="8051"/>
   </language>
+  <language processor="8051"
+            endian="big"
+            size="16"
+            variant="SH68F881"
+            version="1.0"
+            slafile="8051.sla"
+            processorspec="SH68F881.pspec"
+		manualindexfile="../manuals/8051.idx"
+            id="8051:BE:16:SH68F881">
+    <description>SinoWealth SH68F881</description>
+    <compiler name="default" spec="8051.cspec" id="default"/>
+  </language>
+  <language processor="8051"
+            endian="big"
+            size="16"
+            variant="SH68F90"
+            version="1.0"
+            slafile="8051.sla"
+            processorspec="SH68F90.pspec"
+		manualindexfile="../manuals/8051.idx"
+            id="8051:BE:16:SH68F90">
+    <description>SinoWealth SH68F90</description>
+    <compiler name="default" spec="8051.cspec" id="default"/>
+  </language>
 </language_definitions>
