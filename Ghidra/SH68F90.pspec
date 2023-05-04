@@ -15,14 +15,17 @@
 <!-- BYK916 FW doesn't use MCU defined isp_entry (reached via pinstrap/always/never depending on OP_ISPPIN/OP_ISP configuration)
   <symbol name="isp_entry" address="CODE:FC00" type="code" entry="true"/>
 -->
-<!-- TODO: Interrupts - currently only those are clearly used in BYK801 FW (TODO: THIS IS BYK916 PSEC, recheck with BYK916 fw). Leading 0 to help with sorting -->
+<!-- Interrupts - currently only those are clearly used in BYK916. Leading 0 to help with sorting -->
     <symbol name="irq00" address="CODE:0003" type="code" entry="true"/>
+    <symbol name="irq01" address="CODE:000B" type="code" entry="true"/>
+    <symbol name="irq02" address="CODE:0013" type="code" entry="true"/>
     <symbol name="irq03" address="CODE:001B" type="code" entry="true"/>
-    <symbol name="irq05" address="CODE:002B" type="code" entry="true"/>
+    <!-- <symbol name="irq05" address="CODE:002B" type="code" entry="true"/> -->
+    <symbol name="irq07" address="CODE:003B" type="code" entry="true"/>
     <symbol name="irq08" address="CODE:0043" type="code" entry="true"/>
-    <symbol name="irq09" address="CODE:004B" type="code" entry="true"/>
-    <symbol name="irq10" address="CODE:0053" type="code" entry="true"/>
-    <symbol name="irq11" address="CODE:005B" type="code" entry="true"/>
+    <!-- <symbol name="irq09" address="CODE:004B" type="code" entry="true"/> -->
+    <!-- <symbol name="irq10" address="CODE:0053" type="code" entry="true"/> -->
+    <!-- <symbol name="irq11" address="CODE:005B" type="code" entry="true"/> -->
 
 <!-- BYK916 FW -->
     <symbol name="byk916_isp_entry1" address="CODE:F000" type="code" entry="true"/>
